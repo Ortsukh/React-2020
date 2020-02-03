@@ -1,0 +1,96 @@
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.filter {
+  margin: 0 auto;
+  height: 50px;
+}
+
+.filter input {
+  padding-left: 15px;
+  height: 30px;
+  width: 380px;
+}
+
+.filter button {
+  height: 36px;
+  width: 40px;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+.todos li {
+  padding-left: 15px;
+
+  width: 514px;
+  height: 30px;
+  background-color: white;
+  margin: 0 auto 15px auto;
+  border: 1px solid grey;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.deletebtn {
+  position: absolute;
+  left: 450px;
+  top: 7px;
+
+  color: red;
+  height: 25px;
+  width: 25px;
+}
+
+.importantbtn {
+  position: absolute;
+  left: 490px;
+  top: 7px;
+  color: blue;
+  height: 25px;
+  width: 25px;
+}
+
+.add {
+  padding-left: 15px;
+
+  width: 514px;
+  height: 25px;
+}
+
+.todoText {
+  cursor: pointer;
+}
+
+.execute {
+  text-decoration: line-through;
+
+}
+
+.important {
+  font-weight: bold;
+  color: blue;
+}
+
+.hidden {
+  display: none;
+}
